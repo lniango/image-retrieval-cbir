@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# =========================
+# Conda
+# =========================
+.conda/
+
+# =========================
+# Project-specific
+# =========================
+
+# Computed descriptors & indexes (heavy files, recomputable)
+databases/
+*.npy
+*.dat
+
+# Query results & evaluation outputs
+results/
+
+# Exported images
+*.png
+*.pdf
+blurred.png
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# IDEs
+# =========================
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# =========================
+# OS
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
