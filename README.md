@@ -39,34 +39,34 @@ Built as part of a university project in **Multimedia Analysis & Indexing**.
 
 ## ⚙️ Installation
 
-### Avec Conda (recommandé)
+### With Conda (recommended)
 
 ```bash
-# 1. Cloner le repo
+# 1. Clone the repository
 git clone https://github.com/<your-username>/cbir-sift-cnn.git
 cd cbir-sift-cnn
 
-# 2. Créer l'environnement depuis le fichier YAML
+# 2. Create the environment from the YAML file
 conda env create -f environment.yml
 
-# 3. Activer l'environnement
+# 3. Activate the environment
 conda activate cbir-env
 ```
 
-### Mettre à jour l'environnement (si environment.yml a changé)
+### Update the environment (if environment.yml has changed)
 
 ```bash
 conda env update -f environment.yml --prune
 ```
 
-### Supprimer l'environnement
+### Remove the environment
 
 ```bash
 conda deactivate
 conda env remove -n cbir-env
 ```
 
-> Testé avec Python 3.8, OpenCV 4.10, TensorFlow 2.13
+> Tested with Python 3.8, OpenCV 4.10, TensorFlow 2.13
 
 ---
 
